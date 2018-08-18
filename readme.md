@@ -13,16 +13,20 @@ pip install -r requirements.txt
 ```
 
 ## Download the pre-trained model and features
-Download the entire `tmp` folder from [this google drive](https://drive.google.com/open?id=1op_bTKN5xyAi13ZQtsekLIZb_6vASlSi) and put under the root folder of the repository. The file structure should look like:
+- Download the entire `tmp` folder from [this google drive](https://drive.google.com/open?id=1op_bTKN5xyAi13ZQtsekLIZb_6vASlSi) and put under the root folder of the repository.
+- Unzip the `hico_data_background_49.zip` file under `gpnn/tmp/hico/processed`.
+- The file structure should look like:
 ```
-\gpnn
-  \src
-    \python
-  \tmp
-    \cad120
-    \hico
-    \checkpoints
-    \results
+/gpnn
+  /src
+    /python
+  /tmp
+    /cad120
+    /hico
+      /processed
+        /hico_data_background_49
+    /checkpoints
+    /results
 ```
 
 ## Running the code
